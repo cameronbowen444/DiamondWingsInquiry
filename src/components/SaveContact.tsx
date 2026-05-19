@@ -6,8 +6,8 @@ export default function SaveContactButton() {
 VERSION:3.0
 FN:Diamond Wings 369
 ORG:Diamond Wings 369
-TEL;TYPE=CELL:818-292-4112
-EMAIL:frank@bustos.us
+TEL;TYPE=CELL:818-626-4592
+EMAIL:frank@diamondwings369.com
 URL:https://diamondwings369.com
 END:VCARD`;
 
@@ -26,7 +26,7 @@ END:VCARD`;
     <button
       type="button"
       onClick={saveContact}
-      className="rounded-full border border-yellow-500 mx-5 px-6 py-3 text-yellow-500 hover:bg-yellow-500 hover:text-black transition"
+      className="rounded-full border border-yellow-500 mx-1 px-5 py-3 text-yellow-500 hover:bg-yellow-500 hover:text-black transition whitespace-nowrap"
     >
       Save Contact
     </button>

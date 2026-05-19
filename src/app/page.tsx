@@ -1,5 +1,5 @@
 import Image from "next/image";
-import carOne from "@/assets/car2.png";
+import carOne from "@/assets/car3.png";
 import logo from "@/assets/logo1.png";
 import InquiryForm from "@/components/InquiryForm";
 import SaveContactButton from "@/components/SaveContact";
@@ -30,14 +30,15 @@ export default function Home() {
               pickups, weddings, corporate travel, special events, and private
               rides.
             </p>
-
-            <a
-              href="#inquiry"
-              className="inline-block bg-yellow-500 text-black font-semibold px-6 py-3 rounded-full hover:bg-yellow-400 transition"
-            >
-              Request a Quote
-            </a>
-            <SaveContactButton />
+            <div className="flex items-center justify-start">
+              <a
+                href="#inquiry"
+                className="inline-block bg-yellow-500 text-black font-semibold px-4 py-3 rounded-full hover:bg-yellow-400 transition whitespace-nowrap"
+              >
+                Request a Quote
+              </a>
+              <SaveContactButton />
+            </div>
           </div>
 
           <div>

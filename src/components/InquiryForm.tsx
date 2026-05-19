@@ -119,7 +119,7 @@ export default function InquiryForm() {
               name="dateTime"
               type="datetime-local"
               required
-              className="w-full rounded-xl bg-black border border-neutral-700 px-4 py-3 outline-none focus:border-yellow-500"
+              className="w-full rounded-xl bg-black border border-neutral-700 px-4 py-3 text-white outline-none focus:border-yellow-500 [color-scheme:dark]"
             />
           </div>
 
