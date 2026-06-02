@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     siteName: "Diamond Wings 369",
     images: [
       {
-        url: "/og-image.png",
+        url: "/car2.png",
         width: 1200,
         height: 630,
         alt: "Diamond Wings 369 luxury chauffeur and black car service",
