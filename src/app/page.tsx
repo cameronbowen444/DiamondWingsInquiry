@@ -144,6 +144,7 @@ export default function Home() {
               >
                 <motion.a
                   href="https://book.mylimobiz.com/v4/diamondwings"
+                  target="_blank"
                   className="group inline-flex items-center justify-center rounded-full bg-yellow-500 px-7 py-4 text-base font-bold text-black shadow-[0_0_35px_rgba(234,179,8,0.28)] transition hover:bg-yellow-400"
                   whileHover={{ scale: 1.04, y: -2 }}
                   whileTap={{ scale: 0.96 }}
@@ -397,6 +398,7 @@ export default function Home() {
 
               <motion.a
                 href="https://book.mylimobiz.com/v4/diamondwings"
+                target="_blank"
                 className="inline-flex w-full items-center justify-center rounded-full bg-white px-6 py-4 font-bold text-black transition hover:bg-yellow-400 sm:w-auto"
                 whileHover={{ scale: 1.04, y: -2 }}
                 whileTap={{ scale: 0.96 }}
@@ -447,6 +449,7 @@ export default function Home() {
           >
             <motion.a
               href="https://book.mylimobiz.com/v4/diamondwings"
+              target="_blank"
               className="inline-flex items-center justify-center rounded-full bg-yellow-500 px-8 py-4 font-black text-black transition hover:bg-yellow-400"
               whileHover={{ scale: 1.04, y: -2 }}
               whileTap={{ scale: 0.96 }}
@@ -455,7 +458,7 @@ export default function Home() {
             </motion.a>
 
             <motion.a
-              href="tel:"
+              href="tel:8182924112"
               className="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/[0.04] px-8 py-4 font-bold text-white transition hover:bg-white/10"
               whileHover={{ scale: 1.04, y: -2 }}
               whileTap={{ scale: 0.96 }}
