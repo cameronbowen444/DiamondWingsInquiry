@@ -1,19 +1,23 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Cinzel, Manrope } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const cinzel = Cinzel({
+  variable: "--font-cinzel",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const manrope = Manrope({
+  variable: "--font-manrope",
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
 });
+
+const siteUrl = "https://diamond-wings-inquiry.vercel.app";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://diamond-wings-inquiry.vercel.app/"),
+  metadataBase: new URL(siteUrl),
 
   title: {
     default: "Diamond Wings 369 | Luxury Chauffeur Service",
@@ -37,6 +41,9 @@ export const metadata: Metadata = {
     "corporate transportation",
     "luxury car service",
     "private ride service",
+    "executive transportation",
+    "private chauffeur Los Angeles",
+    "VIP transportation Los Angeles",
   ],
 
   authors: [{ name: "Diamond Wings 369" }],
@@ -44,14 +51,14 @@ export const metadata: Metadata = {
   publisher: "Diamond Wings 369",
 
   alternates: {
-    canonical: "https://diamond-wings-inquiry.vercel.app/",
+    canonical: "/",
   },
 
   openGraph: {
     title: "Diamond Wings 369 | Ride First Class",
     description:
       "Premium luxury chauffeur and black-car service for airport transfers, events, weddings, corporate travel, date nights, and private rides in Los Angeles.",
-    url: "https://diamond-wings-inquiry.vercel.app/",
+    url: siteUrl,
     siteName: "Diamond Wings 369",
     images: [
       {
@@ -101,7 +108,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${cinzel.variable} ${manrope.variable}`}>
         {children}
       </body>
     </html>

@@ -1,5 +1,7 @@
 "use client";
 
+import { Download } from "lucide-react";
+
 export default function SaveContactButton() {
   function saveContact() {
     const vCard = `BEGIN:VCARD
@@ -26,8 +28,11 @@ END:VCARD`;
     <button
       type="button"
       onClick={saveContact}
-      className="rounded-full border border-yellow-500 mx-1 px-5 py-3 text-yellow-500 hover:bg-yellow-500 hover:text-black transition whitespace-nowrap"
+      className="group inline-flex items-center justify-center gap-3 rounded-full border border-white/10 bg-white/[0.04] px-7 py-4 text-sm text-white backdrop-blur-xl transition hover:border-[#d8c7a3]/50 hover:bg-white/[0.09]"
     >
+      <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#d0a356] text-[#090909] transition group-hover:scale-105">
+        <Download size={15} />
+      </span>
       Save Contact
     </button>
   );
